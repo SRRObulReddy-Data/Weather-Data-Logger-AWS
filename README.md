@@ -23,6 +23,9 @@ You can test the API Gateway endpoint using the provided Postman collection
    - Import the Postman collection file attached in the 'Testing/' folder.
    - Adjust the endpoint URL as needed
    - Run the "Log Weather Data" request to trigger the Lambda function and log data in DynamoDB.
+## Sample Data
+   - A 'sample_data.json' file is provided in the 'sample_data/' folder to demonstrate the structure of data logged in DynamoDB. 
+   - This sample data shows typical entries for weather data, including 'date', 'time', 'temperature', and 'description'.
 ## Challenges 
 1. API Rate Limiting:
    - Free API keys often have usage limit, so configure the Lambda function frequency to stay within these limits.
