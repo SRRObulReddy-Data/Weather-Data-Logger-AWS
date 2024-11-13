@@ -17,7 +17,8 @@ The Project uses a serverless architecture for scalability, efficiency, and cost
   - AWS Lambda: The function that pulls data from OpenWeatherMap API, processes it, and stores it in DynamoDB.
   - Amazon DynamoDB: Serves as a NoSQL database to store weather data in a structured format with date and time keys.
   - EventBridge / CloudWatch: Configured to trigger the Lambda function every hour to automate data fetching and logging. 
-### Architecture Diagram 
+### Data Flow Architecture Diagram
+![Architecture Diagram](Architecture_diagram.jpg)
 ## Testing
 You can test the API Gateway endpoint using the provided Postman collection
    - Import the Postman collection file attached in the 'Testing/' folder.
