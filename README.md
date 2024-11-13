@@ -18,7 +18,11 @@ The Project uses a serverless architecture for scalability, efficiency, and cost
   - Amazon DynamoDB: Serves as a NoSQL database to store weather data in a structured format with date and time keys.
   - EventBridge / CloudWatch: Configured to trigger the Lambda function every hour to automate data fetching and logging. 
 ### Architecture Diagram 
-## Setup Instructions
+## Testing
+You can test the API Gateway endpoint using the provided Postman collection
+   - Import the Postman collection file attached in the 'Testing/' folder.
+   - Adjust the endpoint URL as needed
+   - Run the "Log Weather Data" request to trigger the Lambda function and log data in DynamoDB.
 ## Challenges 
 1. API Rate Limiting:
    - Free API keys often have usage limit, so configure the Lambda function frequency to stay within these limits.
