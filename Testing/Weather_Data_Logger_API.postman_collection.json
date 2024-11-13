@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "b0c57e9a-3642-4edb-b6b7-69669f87d60c",
+		"name": "Weather_Data_Logger_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27314304"
+	},
+	"item": [
+		{
+			"name": "Log_Weather_Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://l1w0uonry8.execute-api.us-east-1.amazonaws.com/dev/weather",
+					"protocol": "https",
+					"host": [
+						"l1w0uonry8",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"weather"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Log_Weather_Data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://l1w0uonry8.execute-api.us-east-1.amazonaws.com/dev/weather",
+					"protocol": "https",
+					"host": [
+						"l1w0uonry8",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"weather"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
