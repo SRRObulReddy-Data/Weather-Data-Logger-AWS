@@ -29,10 +29,10 @@ You can test the API Gateway endpoint using the provided Postman collection
    - This sample data shows typical entries for weather data, including 'date', 'time', 'temperature', and 'description'.
 ## Challenges 
 1. API Rate Limiting:
-   - Free API keys often have usage limit, so configure the Lambda function frequency to stay within these limits.
+   - Free API keys often have usage limit, so configuring the Lambda function frequency to stay within these limits has been challenging.
 2. Error Handling:
-   - Handling failed API calls or network issues in Lambda can be challenging. Implementing retry mechanisms helps mitigate these issues.
+   - Handling failed API calls or network issues in Lambda has been challenging. Implementing retry mechanisms helped in mitigating these issues.
 3. Cost Management:
-   - AWS free-tier limits can be exceeded if resources aren't monitored carefully. Billing alerts help keep track of usage.
+   - AWS free-tier limits can be exceeded if resources aren't monitored carefully. Frequent Monitoring along with setting Billing alerts helps in keeping track of usage which has been challenging too.
 4. Security:
-   - Storing API keys securely and configuring proper IAM roles for each service reduces security risks. 
+   - Finally, Storing API keys securely and configuring proper IAM roles for each service to reduces security risks is a challenge. 
