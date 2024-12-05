@@ -1,6 +1,8 @@
 import boto3
 import requests
 import json
+import os 
+
 from datetime import datetime
 from decimal import Decimal
 
@@ -9,7 +11,7 @@ table = dynamodb.Table('WeatherData')
 
 def lambda_handler(event, context):
     city = "London"
-    api_key = "d44f359691598ea422843d959ffdb89d"  # Replace with your actual OpenWeatherMap API key
+    api_key = os.environ['API_KEY'] # Fetching API key from environment variables
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
     response = requests.get(url).json()
 
